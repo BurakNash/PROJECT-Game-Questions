@@ -125,7 +125,7 @@ namespace WindowsFormsApp1
             if (questionNo == 8)
             {
                 richTextBox1.Text = "Which country is always hungry?";
-                button7.BackColor = Color.Yellow;
+                button10.BackColor = Color.Yellow;
             }
         }
     }
