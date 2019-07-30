@@ -77,10 +77,13 @@ namespace WindowsFormsApp1
 
         }
         int questionNo = 0, correct = 0, wrong = 0;
+
+
+
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             //changing the text from Start to Answer
-            linkLabel1.Text = "Answer";
+            linkLabel1.Text = "Next";
             //Adds to Question number 0 each time clicked
             questionNo++;
             this.Text = questionNo.ToString();
@@ -104,7 +107,7 @@ namespace WindowsFormsApp1
             }
             if (questionNo == 4)
             {
-                richTextBox1.Text = "What is the capital city of Denmark?";
+                richTextBox1.Text = "What is the state next to Maryland?";
                 button3.BackColor = Color.Yellow;
             }
             if (questionNo == 5)
@@ -128,5 +131,95 @@ namespace WindowsFormsApp1
                 button10.BackColor = Color.Yellow;
             }
         }
+        private void richTextBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                switch (questionNo)
+                {
+                    case 1:
+                        if (richTextBox2.Text == "alaska")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 2:
+                        if (richTextBox2.Text == "brazil")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 3:
+                        if (richTextBox2.Text == "copenhagen")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 4:
+                        if (richTextBox2.Text == "delaware")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 5:
+                        if (richTextBox2.Text == "estonia")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 6:
+                        if (richTextBox2.Text == "france")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 7:
+                        if (richTextBox2.Text == "guetamala")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 8:
+                        if (richTextBox2.Text == "hungary")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                }
+            }
+        }
     }
 }
+
