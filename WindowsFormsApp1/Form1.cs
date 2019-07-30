@@ -141,80 +141,112 @@ namespace WindowsFormsApp1
                         if (richTextBox2.Text == "alaska")
                         {
                             button0.BackColor = Color.Green;
+                            correct++;
+                            label1.Text = correct.ToString();
                         }
                         else
                         {
                             button0.BackColor = Color.Red;
+                            wrong++;
+                            label2.Text = wrong.ToString();
                         }
                         break;
                     case 2:
                         if (richTextBox2.Text == "brazil")
                         {
-                            button0.BackColor = Color.Green;
+                            button1.BackColor = Color.Green;
+                            correct++;
+                            label1.Text = correct.ToString();
                         }
                         else
                         {
-                            button0.BackColor = Color.Red;
+                            button1.BackColor = Color.Red;
+                            wrong++;
+                            label2.Text = wrong.ToString();
                         }
                         break;
                     case 3:
                         if (richTextBox2.Text == "copenhagen")
                         {
-                            button0.BackColor = Color.Green;
+                            button2.BackColor = Color.Green;
+                            correct++;
+                            label1.Text = correct.ToString();
                         }
                         else
                         {
-                            button0.BackColor = Color.Red;
+                            button2.BackColor = Color.Red;
+                            wrong++;
+                            label2.Text = wrong.ToString();
                         }
                         break;
                     case 4:
                         if (richTextBox2.Text == "delaware")
                         {
-                            button0.BackColor = Color.Green;
+                            button3.BackColor = Color.Green;
+                            correct++;
+                            label1.Text = correct.ToString();
                         }
                         else
                         {
-                            button0.BackColor = Color.Red;
+                            button3.BackColor = Color.Red;
+                            wrong++;
+                            label2.Text = wrong.ToString();
                         }
                         break;
                     case 5:
                         if (richTextBox2.Text == "estonia")
                         {
-                            button0.BackColor = Color.Green;
+                            button4.BackColor = Color.Green;
+                            correct++;
+                            label1.Text = correct.ToString();
                         }
                         else
                         {
-                            button0.BackColor = Color.Red;
+                            button4.BackColor = Color.Red;
+                            wrong++;
+                            label2.Text = wrong.ToString();
                         }
                         break;
                     case 6:
                         if (richTextBox2.Text == "france")
                         {
-                            button0.BackColor = Color.Green;
+                            button5.BackColor = Color.Green;
+                            correct++;
+                            label1.Text = correct.ToString();
                         }
                         else
                         {
-                            button0.BackColor = Color.Red;
+                            button5.BackColor = Color.Red;
+                            wrong++;
+                            label2.Text = wrong.ToString();
                         }
                         break;
                     case 7:
                         if (richTextBox2.Text == "guetamala")
                         {
-                            button0.BackColor = Color.Green;
+                            button6.BackColor = Color.Green;
+                            correct++;
+                            label1.Text = correct.ToString();
                         }
                         else
                         {
-                            button0.BackColor = Color.Red;
+                            button6.BackColor = Color.Red;
+                            wrong++;
+                            label2.Text = wrong.ToString();
                         }
                         break;
                     case 8:
                         if (richTextBox2.Text == "hungary")
                         {
-                            button0.BackColor = Color.Green;
+                            button10.BackColor = Color.Green;
+                            correct++;
+                            label1.Text = correct.ToString();
                         }
                         else
                         {
-                            button0.BackColor = Color.Red;
+                            button10.BackColor = Color.Red;
+                            wrong++;
+                            label2.Text = wrong.ToString();
                         }
                         break;
                 }
