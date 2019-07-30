@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
 
         private void button6_Click(object sender, EventArgs e)
         {
-            g
+
         }
 
         private void button18_Click(object sender, EventArgs e)
@@ -60,6 +60,39 @@ namespace WindowsFormsApp1
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+
+        }
+        int questionNo = 0, correct = 0, wrong = 0;
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //changing the text from Start to Answer
+            linkLabel1.Text = "Answer";
+            //Adds to Question number 0 each time clicked
+            questionNo++;
+            this.Text = questionNo.ToString();
+
+            //When question is one, richtext will write the question and backcolor changes
+
+            if (questionNo == 1)
+            {
+                richTextBox1.Text = "What is the most northern State in the USA";
+                button1.BackColor = Color.Yellow;
+
+            }
         }
     }
 }
