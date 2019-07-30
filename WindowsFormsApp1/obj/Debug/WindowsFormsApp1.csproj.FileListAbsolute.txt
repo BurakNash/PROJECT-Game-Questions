@@ -8,6 +8,7 @@ C:\Users\BURAK\Desktop\C#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFor
 C:\Users\BURAK\Desktop\C#\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\BURAK\Desktop\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\BURAK\Desktop\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+<<<<<<< HEAD
 C:\Users\BURAK\Desktop\questionGame-master\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\BURAK\Desktop\questionGame-master\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\BURAK\Desktop\questionGame-master\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
@@ -18,3 +19,5 @@ C:\Users\BURAK\Desktop\questionGame-master\WindowsFormsApp1\obj\Debug\WindowsFor
 C:\Users\BURAK\Desktop\questionGame-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\BURAK\Desktop\questionGame-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\BURAK\Desktop\questionGame-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+=======
+>>>>>>> master
