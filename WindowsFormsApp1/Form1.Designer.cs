@@ -329,6 +329,7 @@
             this.richTextBox2.Size = new System.Drawing.Size(512, 43);
             this.richTextBox2.TabIndex = 19;
             this.richTextBox2.Text = "";
+            this.richTextBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox2_KeyDown);
             // 
             // groupBox3
             // 

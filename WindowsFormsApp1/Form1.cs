@@ -77,10 +77,13 @@ namespace WindowsFormsApp1
 
         }
         int questionNo = 0, correct = 0, wrong = 0;
+
+
+
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             //changing the text from Start to Answer
-            linkLabel1.Text = "Answer";
+            linkLabel1.Text = "Next";
             //Adds to Question number 0 each time clicked
             questionNo++;
             this.Text = questionNo.ToString();
@@ -128,5 +131,25 @@ namespace WindowsFormsApp1
                 button10.BackColor = Color.Yellow;
             }
         }
+        private void richTextBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                switch (questionNo)
+                {
+                    case 1:
+                        if (richTextBox2.Text == "alaska")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                }
+            }
+        }
     }
 }
+
