@@ -78,7 +78,10 @@ namespace WindowsFormsApp1
         }
         int questionNo = 0, correct = 0, wrong = 0;
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
 
+        }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -131,14 +134,14 @@ namespace WindowsFormsApp1
                 button10.BackColor = Color.Yellow;
             }
         }
-        private void richTextBox2_KeyDown(object sender, KeyEventArgs e)
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
                 switch (questionNo)
                 {
                     case 1:
-                        if (richTextBox2.Text == "alaska")
+                        if (textBox1.Text == "alaska")
                         {
                             button0.BackColor = Color.Green;
                             correct++;
@@ -152,7 +155,7 @@ namespace WindowsFormsApp1
                         }
                         break;
                     case 2:
-                        if (richTextBox2.Text == "brazil")
+                        if (textBox1.Text == "brazil")
                         {
                             button1.BackColor = Color.Green;
                             correct++;
@@ -166,7 +169,7 @@ namespace WindowsFormsApp1
                         }
                         break;
                     case 3:
-                        if (richTextBox2.Text == "copenhagen")
+                        if (textBox1.Text == "copenhagen")
                         {
                             button2.BackColor = Color.Green;
                             correct++;
@@ -180,7 +183,7 @@ namespace WindowsFormsApp1
                         }
                         break;
                     case 4:
-                        if (richTextBox2.Text == "delaware")
+                        if (textBox1.Text == "delaware")
                         {
                             button3.BackColor = Color.Green;
                             correct++;
@@ -194,7 +197,7 @@ namespace WindowsFormsApp1
                         }
                         break;
                     case 5:
-                        if (richTextBox2.Text == "estonia")
+                        if (textBox1.Text == "estonia")
                         {
                             button4.BackColor = Color.Green;
                             correct++;
@@ -208,7 +211,7 @@ namespace WindowsFormsApp1
                         }
                         break;
                     case 6:
-                        if (richTextBox2.Text == "france")
+                        if (textBox1.Text == "france")
                         {
                             button5.BackColor = Color.Green;
                             correct++;
@@ -222,7 +225,7 @@ namespace WindowsFormsApp1
                         }
                         break;
                     case 7:
-                        if (richTextBox2.Text == "guetamala")
+                        if (textBox1.Text == "guetamala")
                         {
                             button6.BackColor = Color.Green;
                             correct++;
@@ -236,7 +239,7 @@ namespace WindowsFormsApp1
                         }
                         break;
                     case 8:
-                        if (richTextBox2.Text == "hungary")
+                        if (textBox1.Text == "hungary")
                         {
                             button10.BackColor = Color.Green;
                             correct++;
