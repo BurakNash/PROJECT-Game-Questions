@@ -102,6 +102,31 @@ namespace WindowsFormsApp1
                 richTextBox1.Text = "What is the capital city of Denmark?";
                 button2.BackColor = Color.Yellow;
             }
+            if (questionNo == 4)
+            {
+                richTextBox1.Text = "What is the capital city of Denmark?";
+                button3.BackColor = Color.Yellow;
+            }
+            if (questionNo == 5)
+            {
+                richTextBox1.Text = "What is the Baltic country next to Latvia?";
+                button4.BackColor = Color.Yellow;
+            }
+            if (questionNo == 6)
+            {
+                richTextBox1.Text = "Where is the Eiffel Tower is located?";
+                button5.BackColor = Color.Yellow;
+            }
+            if (questionNo == 7)
+            {
+                richTextBox1.Text = "What is the country in Central America starting with G?";
+                button6.BackColor = Color.Yellow;
+            }
+            if (questionNo == 8)
+            {
+                richTextBox1.Text = "Which country is always hungry?";
+                button7.BackColor = Color.Yellow;
+            }
         }
     }
 }
