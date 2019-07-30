@@ -97,6 +97,11 @@ namespace WindowsFormsApp1
                 richTextBox1.Text = "What is the largest country in South America";
                 button1.BackColor = Color.Yellow;
             }
+            if (questionNo == 3)
+            {
+                richTextBox1.Text = "What is the capital city of Denmark?";
+                button2.BackColor = Color.Yellow;
+            }
         }
     }
 }
