@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.A = new System.Windows.Forms.Button();
+            this.button0 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -60,17 +60,17 @@
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // A
+            // button0
             // 
-            this.A.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A.Location = new System.Drawing.Point(14, 14);
-            this.A.Margin = new System.Windows.Forms.Padding(5);
-            this.A.Name = "A";
-            this.A.Size = new System.Drawing.Size(49, 57);
-            this.A.TabIndex = 0;
-            this.A.Text = "A";
-            this.A.UseVisualStyleBackColor = true;
-            this.A.Click += new System.EventHandler(this.button1_Click);
+            this.button0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button0.Location = new System.Drawing.Point(14, 14);
+            this.button0.Margin = new System.Windows.Forms.Padding(5);
+            this.button0.Name = "button0";
+            this.button0.Size = new System.Drawing.Size(49, 57);
+            this.button0.TabIndex = 0;
+            this.button0.Text = "A";
+            this.button0.UseVisualStyleBackColor = true;
+            this.button0.Click += new System.EventHandler(this.button1_Click);
             // 
             // button1
             // 
@@ -388,7 +388,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.A);
+            this.Controls.Add(this.button0);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -403,7 +403,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button A;
+        private System.Windows.Forms.Button button0;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

@@ -90,8 +90,12 @@ namespace WindowsFormsApp1
             if (questionNo == 1)
             {
                 richTextBox1.Text = "What is the most northern State in the USA";
+                button0.BackColor = Color.Yellow;
+            }
+            if (questionNo == 2)
+            {
+                richTextBox1.Text = "What is the largest country in South America";
                 button1.BackColor = Color.Yellow;
-
             }
         }
     }
