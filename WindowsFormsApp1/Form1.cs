@@ -107,7 +107,7 @@ namespace WindowsFormsApp1
             }
             if (questionNo == 4)
             {
-                richTextBox1.Text = "What is the capital city of Denmark?";
+                richTextBox1.Text = "What is the state next to Maryland?";
                 button3.BackColor = Color.Yellow;
             }
             if (questionNo == 5)
@@ -139,6 +139,76 @@ namespace WindowsFormsApp1
                 {
                     case 1:
                         if (richTextBox2.Text == "alaska")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 2:
+                        if (richTextBox2.Text == "brazil")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 3:
+                        if (richTextBox2.Text == "copenhagen")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 4:
+                        if (richTextBox2.Text == "delaware")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 5:
+                        if (richTextBox2.Text == "estonia")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 6:
+                        if (richTextBox2.Text == "france")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 7:
+                        if (richTextBox2.Text == "guetamala")
+                        {
+                            button0.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button0.BackColor = Color.Red;
+                        }
+                        break;
+                    case 8:
+                        if (richTextBox2.Text == "hungary")
                         {
                             button0.BackColor = Color.Green;
                         }
