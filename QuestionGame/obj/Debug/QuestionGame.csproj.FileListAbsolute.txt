@@ -1,0 +1,10 @@
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\bin\Debug\WindowsFormsApp1.exe
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\obj\Debug\QuestionGame.csprojAssemblyReference.cache
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\obj\Debug\QuestionGame.csproj.GenerateResource.cache
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\obj\Debug\QuestionGame.csproj.CoreCompileInputs.cache
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\obj\Debug\WindowsFormsApp1.exe
+C:\Users\BURAK\Desktop\C#\QuestionGame\QuestionGame\obj\Debug\WindowsFormsApp1.pdb
